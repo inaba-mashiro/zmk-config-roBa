@@ -80,10 +80,10 @@
 
         default_layer {
             bindings = <
-&kp Q          &kp W       &kp E         &kp R                 &kp T                                                           &kp Y      &kp U  &lt 5 I    &kp O    &kp P
-&kp A          &kp S       &kp D         &kp F                 &kp G        &kp LS(LG(S))                      &kp MINUS       &kp H      &kp J  &kp K      &kp L    &kp MINUS
-&kp Z          &kp X       &kp C         &kp V                 &kp B        &kp COLON                          &kp SEMICOLON   &kp N      &kp M  &kp COMMA  &kp DOT  &mkp LCLK
-&kp BACKSPACE  &kp DELETE  &kp LEFT_GUI  &lt_to_layer_0 1 TAB  &lt 2 SPACE  &lt_to_layer_0 3 INT_MUHENKAN      &kp LEFT_SHIFT  &kp ENTER                             &mkp RCLK
+&kp Q          &kp W       &kp E         &kp R                 &kp T                                                    &kp Y      &kp U  &lt 5 I    &kp O    &kp P
+&kp A          &kp S       &kp D         &kp F                 &kp G        &kp LS(LG(S))               &kp MINUS       &kp H      &kp J  &kp K      &kp L    &kp MINUS
+&kp Z          &kp X       &kp C         &kp V                 &kp B        &kp COLON                   &kp SEMICOLON   &kp N      &kp M  &kp COMMA  &kp DOT  &mkp LCLK
+&kp BACKSPACE  &kp DELETE  &kp LEFT_GUI  &lt_to_layer_0 1 TAB  &lt 2 SPACE  &lt_to_layer_0 3 GRAVE      &kp LEFT_SHIFT  &kp ENTER                             &mkp RCLK
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -100,10 +100,10 @@
 
         SYMBOL {
             bindings = <
-&kp HASH      &kp DOLLAR        &kp PERCENT        &kp AMPS         &kp INT3                          &kp SLASH         &kp RIGHT_BRACE    &kp PIPE              &kp LESS_THAN  &kp GREATER_THAN
-&kp LS(INT3)  &kp LEFT_BRACKET  &kp LEFT_BRACE     &kp KP_NUMBER_6  &kp ASTERISK  &trans      &trans  &kp EXCLAMATION   &kp STAR           &kp LEFT_PARENTHESIS  &kp SEMI       &kp SQT
-&kp LS(SEMI)  &kp EQUAL         &kp DOUBLE_QUOTES  &kp EXCL         &kp QUESTION  &trans      &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH         &kp COMMA      &kp PERIOD
-&trans        &trans            &trans             &trans           &trans        &trans      &trans  &trans                                                                    &trans
+&kp HASH      &kp DOLLAR        &kp PERCENT        &kp CARET         &kp INT3                           &kp SLASH         &kp RIGHT_BRACE    &kp PIPE              &kp LESS_THAN  &kp GREATER_THAN
+&kp LS(INT3)  &kp LEFT_BRACKET  &kp LEFT_BRACE     &kp LS(NUMBER_2)  &kp AMPERSAND  &trans      &trans  &kp EXCLAMATION   &kp STAR           &kp LEFT_PARENTHESIS  &kp SEMI       &kp SQT
+&kp LS(SEMI)  &kp EQUAL         &kp DOUBLE_QUOTES  &kp EXCL          &kp QUESTION   &trans      &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH         &kp COMMA      &kp PERIOD
+&trans        &trans            &trans             &trans            &trans         &trans      &trans  &trans                                                                    &trans
             >;
         };
 
